@@ -138,11 +138,11 @@ if __name__ == "__main__":
 
     tk.Label(frame,text="CSV file must have columns titled: url, start_timestamp, end_timestamp").grid(row=8, column=0, columnspan=2)
     # Add a ScrolledText widget to display log messages
-    log_widget = scrolledtext.ScrolledText(frame, width=80, height=20, state='disabled')
-    log_widget.grid(row=9, column=0, columnspan=2, pady=5)
+    #log_widget = scrolledtext.ScrolledText(frame, width=80, height=20, state='disabled')
+    #log_widget.grid(row=9, column=0, columnspan=2, pady=5)
 
     # Redirect stdout and stderr to the log widget
-    sys.stdout = RedirectText(log_widget)
-    sys.stderr = RedirectText(log_widget)
+    #sys.stdout = RedirectText(log_widget)
+    #sys.stderr = RedirectText(log_widget)
 
     root.mainloop()

@@ -10,14 +10,13 @@ YouTube Video Clipper is a Python-based application that allows users to downloa
 - Clip specific segments from downloaded videos.
 - Process multiple video URLs and timestamps from a CSV file.
 - Simple and user-friendly GUI with Tkinter.
-- Logs and status updates displayed within the GUI.
 - Generate unique filenames for clipped videos based on the current timestamp.
 
 ## Installation
 
 ### Using the Installer
 
-1. **Download and Run the Installer**: Download the installer file from the provided link and run it. The installer will guide you through the installation process.
+1. **Download the Installer**: Go to the [GitHub Releases page](https://github.com/Awesome-Ace22/YouTube-Video-Clipper/releases) and download the latest `YouTubeVideoClipperInstaller.msi` (on Windows) or `YouTubeVideoClipperInstaller.dmg`(on macOS). The installer will guide you through the installation process.
 
 2. **Launch the Application**: Once the installation is complete, you can launch the YouTube Video Clipper from the Start Menu (on Windows) or the Applications folder (on macOS).
 
